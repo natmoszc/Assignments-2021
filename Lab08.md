@@ -108,9 +108,7 @@ Create a file `ImageAnalyzer.py` that you will run on your computer. The first c
 
 # How to submit this assignment:
 
-Create a **new and private** repo named *https://github.com/CCBDA-UPC/2021-8-xx* and invite your Lab. session partner and `angeltoribio-UPC-BCN`.
-
-It needs to have, at least, two files `README.md` with your responses to the above questions and `authors.json` with both members email addresses:
+Use the **private** repo named *https://github.com/CCBDA-UPC/2021-8-xx*. It needs to have, at least, two files `README.md` with your responses to the above questions and `authors.json` with both members email addresses:
 
 ```json5
 {

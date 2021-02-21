@@ -286,9 +286,7 @@ Create a file named `StudentProposal.py` with the solution and add it to your re
 
 # How to submit this assignment:
 
-Create a **new and private** repo named *https://github.com/CCBDA-UPC/2021-3-xx* and invite your Lab. session partner and `angeltoribio-UPC-BCN`.
-
-It needs to have, at least, two files `README.md` with your responses to the above questions and `authors.json` with both members email addresses:
+Use the **private** repo named *https://github.com/CCBDA-UPC/2021-3-xx*. It needs to have, at least, two files `README.md` with your responses to the above questions and `authors.json` with both members email addresses:
 
 ```json5
 {
