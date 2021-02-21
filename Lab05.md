@@ -482,4 +482,4 @@ Commit the `README.md` file to your **responses repository** and commit all chan
 
 Make sure that you have updated your local GitHub repository (using the `git`commands `add`, `commit` and `push`) with all the files generated during this session. 
 
-**Before the deadline**, all team members shall push their responses to their private **/CCBDA-UPC/2021-5-xx** repository.
+**Before the deadline**, all team members shall push their responses to their private *https://github.com/CCBDA-UPC/2021-5-xx* repository.

@@ -123,5 +123,5 @@ Include the code and histograms for task 8.1
 
 Make sure that you have updated your local GitHub repository (using the `git`commands `add`, `commit` and `push`) with all the files generated during this session. 
 
-**Before the deadline**, all team members shall push their responses to their private **/CCBDA-UPC/2021-8-xx** repository.
+**Before the deadline**, all team members shall push their responses to their private *https://github.com/CCBDA-UPC/2021-8-xx* repository.
 
