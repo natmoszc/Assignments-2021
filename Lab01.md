@@ -64,11 +64,9 @@ Just to become familiar with the IDE, set some break points and examine the vari
 
 ## Task 1.3:
 
-Create a `private repository` **2021-1-xx** in your GitHub account.
+Use the `private repository` **https://github.com/CCBDA-UPC/2021-1-xx** that you have received where you and your team partner need to leave your responses. **(Replace xx using the repository name that you have been asigned)**.
 
-Use your student email account (".upc.edu") to create your GitHub account to benefit from private repositories and other perks of the [student pack](https://education.github.com/pack).
-
-Populate your new `private repository` with the contents that you have just cloned.
+Populate the `private repository` with the contents that you have just cloned.
 
 ## Task 1.4:   
 Update your remote repository from the local repository on your laptop:
@@ -76,7 +74,7 @@ Update your remote repository from the local repository on your laptop:
 echo "# 2021-1-xx" >> README.md
 git init
 git add README.md
-git add Lab1/Lab1.guessnumber.py
+git add Lab1.guessnumber.py
 git commit -m "first commit"
 git remote add origin https://github.com//CCBDA-UPC/2021-1-xx.git
 git push -u origin master
@@ -88,16 +86,14 @@ It is better that you manage git by hand. Once you become familiar with git you 
 ## Task 1.5:
 Update the `README.md` file including all the information about your group (member's name and email addresses).
 ## Task 1.6:
-Invite `angeltoribio-UPC-BCN` and your lab. session partner to your remote private repository as a collaborator using the  `settings` button (use 'Triage' for the teacher and 'Admin' access to your partner).
-## Task 1.7:
 Create an EC2 instance at AWS. Login and pull down all the contents of your GitHub repository to make an exact clone by using `git clone` command.
-## Task 1.8:
+## Task 1.7:
 Execute the program `Lab1.guessnumber.py` in your AWS instance. Take a screenshot of the terminal window that are you using as proof.
 Include that screenshot in your local repository, on your laptop, with the name `Lab1.AWSterminal.png`.
 Update your `README.md` file to make that screenshot appear.
-## Task 1.9:
+## Task 1.8:
 Update your remote GitHub repository with the updated `README.md`and the new file `Lab1.AWSterminal.png` using the `git`commands `add`, `commit` and `push`.
-## Task 1.10:
+## Task 1.9:
 Create an S3 bucket and synchronize your repository there. Take a screenshot of the browser window showing your S3 bucket. Include that screenshot in your local repository, on your laptop, with the name `Lab1.S3Bucket.png`.
 Update your `README.md` file to make that screenshot appear.
 
@@ -107,9 +103,7 @@ Update your `README.md` file to make that screenshot appear.
 
 # How to submit this assignment:
 
-Add to the repo *https://github.com/CCBDA-UPC/2021-1-xx* and invite your Lab. session partner and `angeltoribio-UPC-BCN`.
-
-It needs to have, at least, two files `README.md` with your responses to the above questions and `authors.json` with both members email addresses:
+Push to the repo, at least, the files `README.md` with your responses to the above questions and `authors.json` with both members email addresses:
 
 ```json5
 {
@@ -122,6 +116,7 @@ It needs to have, at least, two files `README.md` with your responses to the abo
 
 Include the code and histograms for task 8.1
 
-Make sure that you have updated your local GitHub repository (using the `git`commands `add`, `commit` and `push`) with all the files generated during this session. 
+Make sure that you have updated your local GitHub repository (using the `git`commands `add`, `commit` and `push`) with all the files generated during this session.
 
-**Before the deadline**, all team members shall push their responses to their private **/CCBDA-UPC/2021-1-xx** repository.
+
+**Before the deadline**, all teams shall push their responses to their private **https://github.com//CCBDA-UPC/2021-1-xx** repository.
