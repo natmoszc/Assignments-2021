@@ -337,7 +337,7 @@ Change the code according to your question, create a new view and add it to the 
 
 # How to submit this assignment:
 
-Create a **new and private** repo named *https://github.com/YOUR-ACCOUNT-NAME/CLOUD-COMPUTING-CLASS-2021-Lab7* and invite your Lab. session partner and `angeltoribio-UPC-BCN`.
+Create a **new and private** repo named *https://github.com/CCBDA-UPC/2021-7-xx* and invite your Lab. session partner and `angeltoribio-UPC-BCN`.
 
 It needs to have, at least, two files `README.md` with your responses to the above questions and `authors.json` with both members email addresses:
 
@@ -354,4 +354,4 @@ Go to your **private** `scrapy-lab` repository and commit the changes that you h
 
 Make sure that you have updated your local GitHub repository (using the `git`commands `add`, `commit` and `push`) with all the files generated during this session. 
 
-**Before the deadline**, all team members shall push their responses to their private **CLOUD-COMPUTING-CLASS-2021-Lab7** repository.
+**Before the deadline**, all team members shall push their responses to their private **/CCBDA-UPC/2021-7-xx** repository.
