@@ -340,8 +340,8 @@ Use the **private** repo named *https://github.com/CCBDA-UPC/2021-2-xx*. It need
 ```json5
 {
   "authors": [
-    "FIRSTNAME1.LASTNAME1@est.fib.upc.edu",
-    "FIRSTNAME2.LASTNAME2@est.fib.upc.edu"
+    "FIRSTNAME1.LASTNAME1@estudiantat.upc.edu",
+    "FIRSTNAME2.LASTNAME2@estudiantat.upc.edu"
   ]
 }
 ```
