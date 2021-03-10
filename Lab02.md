@@ -49,6 +49,8 @@ Tokenization is one of the most basic, yet most important, steps in text analysi
 ```python
 import nltk
 ```
+Please, check [https://www.nltk.org/data.html](https://www.nltk.org/data.html) if you have problems installing nltk packages.
+
 A difference between NLTK and many other packages is that this framework also comes with linguistic data for specific tasks. Such data is not included in the default installation, due to its big size, and requires a separate download. Therefore, after importing NLTK, we need to download NLTK Data which includes a lot of corpora, grammars, models, and more resources. You can find the complete nltk data list [here](http://nltk.org/nltk_data/). You can download all nltk resources using `nltk.download('all')`  beware that it takes ~3.5G. For English text, we could use `nltk.download('punkt')` to download the NLTK data package that includes a pre-trained tokenizer for English.
 
 Let’s see the example using the NLTK to tokenize the book [First Contact with TensorFlow](http://www.jorditorres.org/Tensorflow) [`FirstContactWithTensorFlow.txt`](./FirstContactWithTensorFlow.txt) available for download at this repository and outputs the ten most common words in the book.
@@ -96,6 +98,7 @@ When we work with text mining applications, we often hear of the term “Stop Wo
 
 ```python
 from nltk.corpus import stopwords
+nltk.download('stopwords') 
 
 tokens = get_tokens()
 # the lambda expression below this comment
@@ -195,6 +198,10 @@ _$ export CONSUMER_SECRET="qfeRShB54Zf-YOUR-OWN-DATA-4djddUb6FcsivoZ4gkOMX"
 _$ export ACCESS_TOKEN="dsSW6K26GM-YOUR-OWN-DATA-IAh80cx4Kmg1VOOi142542"
 _$ export ACCESS_SECRET="DNvRZMdzRZWaFimgOZ8gd9-YOUR-OWN-DATA-GcKbn3ERDc7"
 ```
+
+If you want to run/debug your program with PyCharm you can setup the environment variables at the run/debug configuration:
+
+ <p align="center"><img src="./images/Lab02-PyCharmEnv.png " alt="PyCharm Env" title="PyCharm Env"/></p>
 
 **Q221: Is the data printed correctly? Is it yours?** Add your answers to `README.md`.
 
