@@ -245,15 +245,15 @@ Open the Elastic Beanstalk console using this preconfigured link: [https://conso
 - select a *EC2 key pair* that you have access to (if you don't have any keypair you will not be able to access the EC2 instances that Elastic Beanstalk creates.)
 - for *Service role* select the value **aws-elasticbeanstalk-service-role**. If you can't find **aws-elasticbeanstalk-service-role** you can create it by going to the IAM console, open the Roles page. Choose aws-elasticbeanstalk-service-role.
 
-        * On the Permissions tab, choose Attach policies.
+    * On the Permissions tab, choose Attach policies.
         
-        * Enter *AWSElasticBeanstalk* to filter the policies.
+    * Enter *AWSElasticBeanstalk* to filter the policies.
         
-        * Select the following policies, and then choose Attach policy:
+    * Select the following policies, and then choose Attach policy:
         
-            * *AWSElasticBeanstalkEnhancedHealth*
+        * *AWSElasticBeanstalkEnhancedHealth*
         
-            * *AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy* 
+        * *AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy* 
 - click **Save**.
  
 7. Back in the boxes screen find the one named **Notifications** and type your e-mail address to receive notifications regarding the environment that you are launching. Click **Save**.
