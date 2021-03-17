@@ -73,7 +73,7 @@ Run `aws configure` and use the new Access Key ID and secret as you did for the 
 
 When you try to deploy your web app to EB you are going to see that the user has not enough permission to deploy the code and manage Elastic beanstalk. Therefore you need to add four extra policies:
 
-- AWSElasticBeanstalkFullAccess - AWS Managed policy
+- AdministratorAccess-AWSElasticBeanstalk - AWS Managed policy
 - AWSElasticBeanstalkService - AWS Managed policy
 - AWSCodeDeployRole - AWS Managed policy
 - AWSCodeDeployFullAccess - AWS Managed policy

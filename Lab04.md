@@ -109,7 +109,7 @@ For more information on permissions, see [http://docs.aws.amazon.com/elasticbean
 
 4. Choose **Next: Permissions**
 
-5. Select the pane *"Attach existing policies directly"*, find **"gsg-signup-policy"** and add a checkmark. Do the same with **AWSElasticBeanstalkFullAccess**.
+5. Select the pane *"Attach existing policies directly"*, find **"gsg-signup-policy"** and add a checkmark. Do the same with **AdministratorAccess-AWSElasticBeanstalk**.
 
 6. Choose **Next: Tags** and **Next: Review** where you should be seeing that your new user has programmatic access and it's attached to the previously selected managed policies.
 
