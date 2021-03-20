@@ -104,8 +104,8 @@ First, you need to create an AWS SNS topic, which is a stream for notifications,
 Open the AWS SNS console at [https://console.aws.amazon.com/sns/v2/home](https://console.aws.amazon.com/sns/v2/home).
 
 - Choose **Create topic**.
-- For Topic name, type *gsg-signup-notifications*. Choose **Create topic**.
-- Choose **Create subscription**.
+- For Topic name, type *gsg-signup-notifications*. Choose **Standard** type and **Create topic**.
+- Choose  **Create subscription**.
 - For **Protocol**, choose *Email*. For **Endpoint**, enter *your email address*. Choose **Create Subscription**.
 
 To confirm the subscription, AWS SNS sends you an email named *AWS Notification — Subscription Confirmation*. Open the link in the email to confirm your subscription.
