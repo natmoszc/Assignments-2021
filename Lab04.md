@@ -331,8 +331,8 @@ branch-defaults:
 global:
   application_name: eb-django-express-signup
   branch: null
-  default_ec2_keyname: null
-  default_platform: Python 3.6
+  default_ec2_keyname: ccbda_upc
+  default_platform: Python 3.6 running on 64bit Amazon Linux
   default_region: eu-west-1
   include_git_submodules: true
   instance_profile: null
