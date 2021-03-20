@@ -260,8 +260,7 @@ Open the Elastic Beanstalk console using this preconfigured link: [https://conso
 
 8. Back in the boxes screen find the one named **Network** and 
 
-- select a VPC where the app. will run isolated regarding its security groups. 
-- select only **eu-west-1a** in both *Load balancer subnets* and *Instance subnets*. If you select more availability zones one EC2 instance will be created on each zone. 
+- select **eu-west-1a** and **eu-west-1b** in *Load balancer subnets* and *Instance subnets*. 
 - check *Public IP address* to be able to access the app from the outside. 
 - click **Next**.
 
