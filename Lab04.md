@@ -141,11 +141,11 @@ Our signup app uses a DynamoDB table to store the contact information that users
 Once you are inside the directory of the project issue the following commands to setup the configuration of the project using the process environment variables:
 
 ```
-_$ export DEBUG="True"
-_$ export STARTUP_SIGNUP_TABLE="gsg-signup-table"
-_$ export AWS_REGION="eu-west-1"
-_$ export AWS_ACCESS_KEY_ID="<YOUR-ACCESS-KEY-ID>"
-_$ export AWS_SECRET_ACCESS_KEY="<YOUR-SECRET-ACCESS-KEY>"
+_$ export DEBUG=True
+_$ export STARTUP_SIGNUP_TABLE=gsg-signup-table
+_$ export AWS_REGION=eu-west-1
+_$ export AWS_ACCESS_KEY_ID=<YOUR-ACCESS-KEY-ID>
+_$ export AWS_SECRET_ACCESS_KEY=<YOUR-SECRET-ACCESS-KEY>
 ```
 
 Update the contents of your environment variables by replacing **<YOUR-ACCESS-KEY-ID>** and **<YOUR-SECRET-ACCESS-KEY>** with the values of the **credentials.csv** file that you previously downloaded after creating the new User.
