@@ -6,7 +6,7 @@ For that web app, we used a **DynamoDB table** storing the list of leads, a **El
 
 You had previously set up a **IAM Policy and Role** to grant correct access to the resources involved.
 
-The code used sits in a **private** repository of your GitHub account named `eb-django-express-signup`.
+The code used sits in a **private** repository of your GitHub account named `eb-django-express-signup`. If you are using git, as it is the case, `eb deploy` sends the last version of your code that is committed to your local repo. Therefore, if you are changing your code and trying to deploy them, do committ the changes before issuing `eb deploy`.
 
 Remember that, in your Elastic beanstalk console, you have the settings of the previously created environment and that you can *unfreeze* the web app by clicking at *Restore terminated environment*.
 
