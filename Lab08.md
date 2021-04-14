@@ -6,7 +6,7 @@ This section follows the official [introduction to image classification]( https:
 
 This hands-on helps you to classify images using labels. [Cloud Vision API](https://cloud.google.com/vision/) enables developers to understand the content of an image by encapsulating powerful machine learning models in an easy to use REST API. It quickly classifies images into thousands of categories (e.g., "sailboat", "lion", "Eiffel Tower"), detects individual objects and faces within images and finds and reads printed words contained within images. You can build metadata on your image catalog, moderate offensive content, or enable new marketing scenarios through image sentiment analysis. Analyze images uploaded in the request or integrate with your image storage on Google Cloud Storage. Try the API [(Drag image file here or Browse from your computer)](https://cloud.google.com/vision/). Locate the area shown below and test the functionality offered:
 
-<p align="center"><img src="./images/Lab10-GoogleVision.png" alt="GoogleVision" title="GoogleVision"/></p>
+<p align="center"><img src="./images/Lab10-GoogleVision.jpg" alt="GoogleVision" title="GoogleVision"/></p>
 
 <a name="Tasks81"/>
 
